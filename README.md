@@ -1,17 +1,36 @@
-# garderie_mobile
+# Ma Garderie 🧸
 
-A new Flutter project.
+Application mobile Flutter pour une garderie d'enfants : écran de démarrage, liste d'activités, menu latéral et interactions.
 
-## Getting Started
+## Technologies utilisées
+- Flutter / Dart
+- Git et GitHub
 
-This project is a starting point for a Flutter application.
+## Installation et exécution
+```bash
+git clone https://github.com/khouloude123/garderie-mobile.git
+cd garderie-mobile
+flutter pub get
+flutter run
+```
+Un émulateur Android ou un téléphone en mode débogage USB est nécessaire.
 
-A few resources to get you started if this is your first Flutter project:
+## Fonctionnalités
+- Splash Screen avec image et transition automatique après 3 secondes
+- Page principale avec AppBar, Drawer (Accueil, Activités, À propos) et bouton `+`
+- Liste de 5 activités (icône, titre, description)
+- Interactions : messages (SnackBar) pour le bouton `+`, les activités et le Drawer
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Captures d'écran
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Splash Screen
+![Splash Screen](screenshots/splash.png)
+
+### Page principale
+![Page principale](screenshots/home.png)
+
+### Drawer ouvert
+![Drawer](screenshots/drawer.png)
+
+### Message après interaction
+![Interaction](screenshots/interaction.png)activités
